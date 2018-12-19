@@ -26,7 +26,7 @@ edg[,3][edg[,3]=="isotope"]<-"grey"
 edg[,3][!(edg[,3] %in% c("blue","green","black","orange", "red","grey"))]<-rgb(1,1,1,alpha=1)
 #edg<-edg[edg[,3]!="white",]]
 
-#set up legend
+#set up legend for edges
 ledges <- data.frame(color = c("blue","green","black","orange", "red","grey"),
                      label = c("CH2", "CO2","H2","H2O","O","isotope"),font.size = c(20,20))
 ledges<-ledges[ledges$color %in% edg[,3],]
@@ -46,7 +46,7 @@ nodes$color<-as.character(nodes$color)
 nodes$label<-as.character(nodes$label)
 nodes$font.size<-labelsize
 
-#create legend
+#create legend for nodes
 hedges<-data.frame(color = c(as.character(nodes$color[which.min(l)][1]),as.character(nodes$color[which.max(l)][1])),
                    label = c(paste0("low ",as.character(color_by)), paste0("high ",as.character(color_by))),shape=c("dot"),font.color=c("black","black"),font.size = c(25,25))
 
