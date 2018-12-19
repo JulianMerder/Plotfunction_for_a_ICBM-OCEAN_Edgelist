@@ -18,3 +18,15 @@ plot_edgelist(edgelist='name of your edgelist',selected_formula = NULL,color_by=
 ```
 
 Have fun creating networks of homologous series!
+
+
+used packages:
+
+  Almende B.V., Benoit Thieurmel and Titouan Robert (2018). visNetwork: Network Visualization using 'vis.js'
+  Library. R package version 2.0.3. https://CRAN.R-project.org/package=visNetwork
+  
+  Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2018). dplyr: A Grammar of Data
+  Manipulation. R package version 0.7.8. https://CRAN.R-project.org/package=dplyr
+  
+  Erich Neuwirth (2014). RColorBrewer: ColorBrewer Palettes. R package version 1.1-2.
+  https://CRAN.R-project.org/package=RColorBrewer
