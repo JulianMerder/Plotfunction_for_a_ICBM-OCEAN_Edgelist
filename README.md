@@ -20,6 +20,17 @@ plot_edgelist(edgelist='name of your edgelist',selected_formula = NULL,color_by=
 Have fun creating networks of homologous series!
 
 
+
+
+
+
+
+
+
+
+
+
+
 used packages:
 
   Almende B.V., Benoit Thieurmel and Titouan Robert (2018). visNetwork: Network Visualization using 'vis.js'
