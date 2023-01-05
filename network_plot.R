@@ -1,7 +1,7 @@
-### Geomol Network Plot
+### ICBM-OCEAN Network Plot
 
 ## Original Code
-#edg<-read.csv("Edgelist_C.csv",stringsAsFactors = F) # load your Geomol edgelist and run the function below with
+#edg<-read.csv("Edgelist_C.csv",stringsAsFactors = F) # load your ICBM-OCEAN edgelist and run the function below with
 
 plot_edgelist<-function(edgelist,selected_formula=NULL,color_by="C",cols=c("darkturquoise","midnightblue"),labelsize=20,staticlayout=F){
 # load required R packages
